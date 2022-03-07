@@ -1,10 +1,10 @@
 import { createContext, useState } from 'react';
 
-// creamos el context con la api de createContext
+// creamos nuestro context con la api de createContext
 export const AppContext = createContext();
 
 const Provider = ({ children }) => {
-        // this state will be shared with all components 
+    // Éste es el state que se compartirá con todos los componentes
     const [state, setState] = useState({  
       name: "",
       age: 27,

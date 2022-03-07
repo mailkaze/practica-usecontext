@@ -7,7 +7,7 @@ export default function Input() {
   return (
     <div>
       <input type="text"
-        value={state?.name}
+        value={state.name}
         onChange={ e => setState({ ...state, name: e.target.value}) }
       />
     </div>

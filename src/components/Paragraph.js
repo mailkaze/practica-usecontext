@@ -6,8 +6,8 @@ export default function Paragraph() {
 
   return (
     <div>
-      <p>nombre: {state?.name}</p>
-      <p>edad: {state?.age}</p>
+      <p>nombre: {state.name}</p>
+      <p>edad: {state.age}</p>
     </div>
   )
 }
